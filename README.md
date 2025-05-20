@@ -1,12 +1,45 @@
-# React + Vite
+# 🖼️ Image Click React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un mini-site React pour mon groupe avec une image centrée sur la page d’accueil.  
+Au clic, l’image redirige vers une seconde page.  
+Ce site sera fourni progressivement avec un déploiement sur Vercel.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Démo en ligne
 
-## Expanding the ESLint configuration
+Prochainement
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Aperçu
+
+Page d’accueil :  
+![home]()
+
+Page secondaire :  
+![secondPage]()
+
+---
+
+## 🛠️ Tech utilisées
+
+- ⚛️ [React](https://react.dev/)
+- ⚡ [Vite](https://vitejs.dev/)
+- 🌐 [React Router](https://reactrouter.com/)
+
+
+---
+
+## 🚧 Fonctionnalités
+
+- Redirection vers une autre page
+- Navigation fluide avec React Router
+
+---
+
+## 📁 Installation en local
+
+```bash
+
+npm install
+npm run dev
