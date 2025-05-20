@@ -1,4 +1,4 @@
-# 🖼️ Image Click React App
+# Website pour mon band YESPLEASE
 
 Un mini-site React pour mon groupe avec une image centrée sur la page d’accueil.  
 Au clic, l’image redirige vers une seconde page.  
