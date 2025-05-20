@@ -6,7 +6,7 @@
   background-color: #f0f0f0;
 }
 
-.image-container img {
+.clickable-image {
   width: 300px;
   height: auto;
   cursor: pointer;
@@ -15,6 +15,6 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.image-container img:hover {
-  transform: scale(1.05);
+.clickable-image:hover {
+  transform: scale(1.1);
 }
