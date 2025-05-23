@@ -6,9 +6,10 @@ function SecondPage() {
   return (
     <>
       <div className="image-container">
-        <div className="description-text">
-          Supply & Demand Now on streaming 
-        </div>
+       <div className="streaming-title">
+  Supply & Demand — Now on streaming
+</div>
+
 
         <a
           href="https://open.spotify.com/intl-fr/track/7qpLWfD11Ajphmitp3XQsQ?si=f369f44a66f14a31"
