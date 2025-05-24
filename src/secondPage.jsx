@@ -22,13 +22,14 @@ function SecondPage() {
             className="clickable-image"
           />
         </a>
+        <br>
+        </br>
+     <Link to="/" className="back-icon-fixed">
+  <GiBoomerangSun />
+</Link>
+
       </div>
 
-      <div className="back-icon-fixed">
-        <Link to="/">
-          <GiBoomerangSun />
-        </Link>
-      </div>
     </>
   );
 }

@@ -14,7 +14,7 @@ function Home() {
 return (
   <div className="image-container">
     <img
-      src="rose-essai.jpg"
+      src="Band.JPG"
       alt="Go"
       onClick={handleClick}
       className="clickable-image"

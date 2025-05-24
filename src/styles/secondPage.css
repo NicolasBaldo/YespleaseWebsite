@@ -27,32 +27,18 @@
   transform: scale(1.1);
 }
 
-.back-icon {
-  margin-top: 2rem;
+
+.back-icon-fixed svg {
   font-size: 3rem;
-  color: #ff69b4;
+  color: #faf8f9;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.back-icon:hover {
+.back-icon-fixed:hover svg {
   transform: rotate(360deg) scale(1.2);
-  color: #ff1493;
-}
-.back-icon-fixed {
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 3rem;
-  color: #ff69b4;
-  transition: transform 0.3s ease, color 0.3s ease;
-  z-index: 1000;
+  color: #45a415;
 }
 
-.back-icon-fixed:hover {
-  transform: translateX(-50%) rotate(360deg) scale(1.2);
-  color: #ff1493;
-}
 @font-face {
   font-family: 'TheVisitor';
   src: url('/fonts/The Visitor.otf') format('opentype');
