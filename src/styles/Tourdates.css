@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.tourdates-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url('Back.jpg'); /* ton fond */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.tour-image {
+  width: 400px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 0px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.tour-image:hover {
+  transform: scale(1.1);
+}
+
+.back-icon-fixed {
+  position: fixed;
+  bottom: 70px; /* ← change de 20px à 40px ou plus */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  color: #faf8f9;
+  transition: transform 0.3s ease, color 0.3s ease;
+  z-index: 1000;
+}
+
+.back-icon-fixed:hover {
+  transform: translateX(-50%) rotate(360deg) scale(1.2);
+  color: #45a415;
+}
