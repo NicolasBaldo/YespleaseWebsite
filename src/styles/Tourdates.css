@@ -7,7 +7,7 @@ html, body {
 .tourdates-container {
   height: 100vh;
   width: 100%;
-  background-image: url('Back.jpg'); /* ton fond */
+  background-image: url('subwayBack.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ html, body {
   transform: scale(1.1);
 }
 
-.back-icon-fixed {
+.back-icon-fixedT {
   position: fixed;
   bottom: 70px; /* ← change de 20px à 40px ou plus */
   left: 50%;
@@ -41,7 +41,7 @@ html, body {
   z-index: 1000;
 }
 
-.back-icon-fixed:hover {
+.back-icon-fixedT:hover {
   transform: translateX(-50%) rotate(360deg) scale(1.2);
   color: #45a415;
 }

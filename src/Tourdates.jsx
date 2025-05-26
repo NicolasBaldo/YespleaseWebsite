@@ -12,7 +12,7 @@ function Tourdates() {
       />
 
       <div className="back-link">
-        <Link to="/" className="back-icon-fixed">
+        <Link to="/" className="back-icon-fixedT">
           <GiBoomerangSun />
         </Link>
       </div>
