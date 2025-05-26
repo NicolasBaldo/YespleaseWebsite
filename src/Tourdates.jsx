@@ -6,7 +6,7 @@ function Tourdates() {
   return (
     <div className="tourdates-container">
       <img
-        src="TourPoster.jpg" 
+        src="Tour.JPG" 
         alt="Tour Poster"
         className="tour-image"
       />
