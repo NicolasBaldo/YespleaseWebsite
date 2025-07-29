@@ -1,36 +1,35 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './styles/SecondPage.css';
 import { GiBoomerangSun } from "react-icons/gi";
 
 function SecondPage() {
+  const navigate = useNavigate();
+
   return (
-    <>
-      <div className="image-container">
-       <div className="streaming-title">
-  Supply & Demand — Now on streaming
-</div>
-
-
-        <a
-          href="https://open.spotify.com/intl-fr/track/7qpLWfD11Ajphmitp3XQsQ?si=f369f44a66f14a31"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="Site22.jpg"
-            alt="Play on Spotify"
-            className="clickable-image"
-          />
-        </a>
-        <br>
-        </br>
-     <Link to="/" className="back-icon-fixed">
-  <GiBoomerangSun />
-</Link>
-
+    <div className="image-container">
+      <div className="streaming-title">
+        Yesplease!
       </div>
 
-    </>
+      <div className="side-by-side">
+        <img
+          src="Cover.JPG"
+          alt="Go to Sounds"
+          className="clickable-image"
+          onClick={() => navigate('/sounds')}
+        />
+        <img
+          src="Extract.JPG"
+          alt="Go to Videoclips"
+          className="clickable-image"
+          onClick={() => navigate('/videoclips')}
+        />
+      </div>
+
+      <Link to="/" className="back-icon-fixed">
+        <GiBoomerangSun />
+      </Link>
+    </div>
   );
 }
 

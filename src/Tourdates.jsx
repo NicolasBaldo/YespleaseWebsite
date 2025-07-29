@@ -10,6 +10,13 @@ function Tourdates() {
         alt="Tour Poster"
         className="tour-image"
       />
+      
+      <img
+        src="Poush1.JPEG" 
+        alt="Tour Poster"
+        className="tour-image"
+      />
+      
 
       <div className="back-link">
         <Link to="/" className="back-icon-fixedT">

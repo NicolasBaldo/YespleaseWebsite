@@ -12,10 +12,13 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: row; 
   justify-content: center;
   align-items: center;
   position: relative;
+  gap: 40px; 
 }
+
 
 .tour-image {
   width: 400px;
@@ -24,7 +27,9 @@ html, body {
   transition: transform 0.3s ease;
   border-radius: 0px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  
 }
+
 
 .tour-image:hover {
   transform: scale(1.1);

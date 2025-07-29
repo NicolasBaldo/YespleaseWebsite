@@ -13,7 +13,7 @@ function Home() {
       />
 
       <img
-        src="Band.JPG"
+        src="Band2.JPG"
         alt="Go"
         onClick={() => navigate('/other')}
         className="clickable-image"
